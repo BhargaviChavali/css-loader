@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body{
+        padding-left: 600px;
+        padding-top: 100px;
+    }
+    h1{
+      padding-left: 50px;
+      padding-top: 50px;
+    }
+.loader {
+  border: 16px solid rgb(85, 78, 78);
+  border-radius: 50%;
+  border-top: 16px solid rgb(4, 113, 113);
+  width: 200px;
+  height: 200px;
+  animation: spin1 2s linear infinite; 
+  animation: spin2 2s linear infinite;
+}
+
+@keyframes spin1 {
+  0% { 
+    transform: rotate(0deg); 
+}
+  100% { 
+    transform: rotate(360deg);
+ }
+}
+
+@keyframes spin2 {
+  0% { 
+    transform: rotate(0deg); 
+}
+  100% { 
+    transform: rotate(360deg);
+ }
+}
+</style>
+</head>
+<body>
+
+<h1> LOADER</h1>
+
+<div class="loader"></div>
+
+</body>
+</html>
